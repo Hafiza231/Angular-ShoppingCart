@@ -1,0 +1,37 @@
+<!-- One -->
+<section id="one" class="wrapper style2">
+    <div class="inner">
+        <div class="box">
+            <div class="image fit">
+                <img src="assets/images/product-banner.jpg" alt="" style="height: 400px;"/>
+            </div>
+            <div class="content">
+                <header class="align-center">
+                    <h2>Product Details</h2>
+                    <p>Features</p>
+                    <h4>Welcome, {{getUser()}}</h4>
+                  
+                </header>
+                <hr />
+                <div class="card mb-3" style="max-width: 1025px; height:361px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-6 ">
+                        <img src="{{productdetail.productimage}}" class="card-img" style="margin-left: 30px;">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body" style="margin-left: 40px;">
+                          <h3 class="card-title">{{productdetail.productname}}</h3>
+                          <h4 class="card-title">{{"Price :"+"  "+productdetail.productprice }}</h4>
+                          <h4 class="card-title">{{"Product Category :"+"  "+productdetail.productcategory}}</h4>
+                          <h4 class="card-title"><small class="text-muted">{{"Description :"+" "+productdetail.productdes}}</small></h4>
+                          <h4 class="card-title">{{"Product Rating :"+"  "+productdetail.productrating}}</h4>
+                         <button class="btn btn-success" (click)="OnCart()">Add To Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+

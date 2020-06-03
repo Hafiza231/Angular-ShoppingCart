@@ -1,0 +1,29 @@
+<!-- Four -->
+<section id="four" class="wrapper style3">
+    <div class="inner">
+
+        <header class="align-center">
+            <h2>Our Products</h2>
+            <p>All brands are available like OPPO,VIVO,APPLE,SAMSUNG,REALME with discounts and also loan facility available.</p>
+        </header>
+    </div>
+</section>
+<div class="container">
+    <h2>Welcome, {{getUser()}}</h2>
+    <div class="row justify-content-around align-items-center" >
+        <div class="card mt-4" style="width: 18rem;" *ngFor="let item of product" >
+            <img src="{{item.productimage}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{"product Name:"+" "+item.productname}}</h5>
+              <p class="card-text">{{"Price:"+" "+item.productprice}}</p>
+              <p class="card-text">{{"Category:"+" "+item.productcategory}}</p>
+              <a routerLink="/productdetail/{{item.id}}" class="btn btn-primary">Know More</a>
+              
+             <!-- <a routerLink="/edit/{{item.id}}" class="btn btn-primary">Edit</a> -->
+            </div>
+          </div>
+        </div>
+    </div>
+<section>
+
+

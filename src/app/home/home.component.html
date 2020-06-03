@@ -1,0 +1,119 @@
+<!-- Banner -->
+	    <section id="banner" data-video="assets/images/banner">
+            <div class="inner" *ngFor="let banners of bannerlist">
+                <h1>{{banners.transitive}}</h1>
+                <p>{{banners.name}}</p>
+                <a routerLink="/product" class="button special scrolly">{{banners.btnname}}</a> 
+            </div>
+        </section>
+
+    <!-- One -->
+        <section id="one" class="wrapper style2">
+            <div class="inner">
+                <div>
+                    <div class="box" *ngFor="let onepara of onelist">
+                        <div class="image fit">
+                            <img src={{onepara.image}} alt="" style="height:360px;" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <h2>{{onepara.header2}}</h2>
+                                <p>{{onepara.p1}}</p>
+                            </header>
+                            <hr />
+                            <p> {{onepara.p2}}</p>
+                            <p>{{onepara.p3}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Two -->
+        <section id="two" class="wrapper style3">
+            <div class="inner" *ngFor="let list of twolist">
+                <div id="flexgrid">
+                    <div>
+                        <header>
+                            <h3>{{list.header1}}</h3>
+                        </header>
+                        <p>{{list.p1}}</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button alt">{{list.linkmore}}</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <header>
+                            <h3>{{list.header2}}</h3>
+                        </header>
+                        <p>{{list.p2}}</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button alt">{{list.linkmore}}</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <header>
+                            <h3>{{list.header3}}</h3>
+                        </header>
+                        <p>{{list.p3}}</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button alt">{{list.linkmore}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Three -->
+        <section id="three" class="wrapper style2">
+            <div class="inner">
+                <div class="grid-style">
+
+                    <div>
+                        <div class="box">
+                            <div class="image fit">
+                                <img src="assets/images/pic02.jpg" alt="" />
+                            </div>
+                            <div class="content">
+                                <header class="align-center">
+                                    <h2>Global Market</h2>
+                                    <p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
+                                </header>
+                                <hr />
+                                <p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="box">
+                            <div class="image fit">
+                                <img src="assets/images/pic03.jpg" alt="" />
+                            </div>
+                            <div class="content">
+                                <header class="align-center">
+                                    <h2>Our Footprints</h2>
+                                    <p>mattis sapien pretium tellus venenatis</p>
+                                </header>
+                                <hr />
+                                <p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    <!-- Four -->
+        <section id="four" class="wrapper style3">
+            <div class="inner">
+
+                <header class="align-center">
+                    <h2>Our Footprints</h2>
+                    <p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+                </header>
+
+            </div>
+        </section>
+

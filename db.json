@@ -1,0 +1,53 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productname": "Galaxy M20",
+      "productprice": "30000",
+      "productimage": "assets/images/m20.jpg",
+      "productdes": "Nice product",
+      "productcategory": "Samsung",
+      "productrating": 4,
+      "isAddedToCart": false
+    },
+    {
+      "id": 2,
+      "productname": "Oppo F11",
+      "productprice": "30000",
+      "productimage": "assets/images/oppof11.jpg",
+      "productdes": "Nice product",
+      "productcategory": "Oppo",
+      "productrating": 4,
+      "isAddedToCart": false
+    },
+    {
+      "id": 3,
+      "productname": "Vivo v20",
+      "productprice": "30000",
+      "productimage": "assets/images/vivov25.jpg",
+      "productdes": "Nice product",
+      "productcategory": "vivo",
+      "productrating": 4,
+      "isAddedToCart": false
+    },
+    {
+      "productname": "Real Me",
+      "productprice": "5000",
+      "productimage": "assets/images/vivov25.jpg",
+      "productdes": "Nice product",
+      "productcategory": "MI",
+      "productrating": 5,
+      "id": 4,
+      "isAddedToCart": false
+    },
+    {
+      "id": 5,
+      "productname": "Iphone",
+      "productprice": "40000",
+      "productimage": "assets/images/iphone.jpg",
+      "productdes": "Iphone with 48 hour battery capacity.",
+      "productcategory": "Apple",
+      "productrating": "5"
+    }
+  ]
+}
